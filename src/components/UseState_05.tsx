@@ -11,7 +11,7 @@ export default function HookState05(): JSX.Element {
   return (
     <>
       <h2>Exercício 03</h2>
-      <p>Valor: {valor}</p>
+      <p>Valor: <strong>{valor}</strong></p>
       <hr />
       <Button setValor={setValor} />
     </>
