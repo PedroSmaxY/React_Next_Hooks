@@ -1,5 +1,5 @@
 // Components
-import HookState01 from "./components/useState_01";
+import HookState01 from "./components/UseState_01";
 
 export default function App(): JSX.Element {
   return (
