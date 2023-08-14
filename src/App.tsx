@@ -5,7 +5,8 @@
 // import HookState05 from "./components/UseState_05";
 // import HookState06 from "./components/UseState_06";
 // import HookState07Alt from "./components/alternativo/UseState_07_alt";
-import HookState07 from "./components/UseState_07";
+// import HookState07 from "./components/UseState_07";
+import HookState08 from "./components/UseState_08";
 
 export default function App(): JSX.Element {
   return (
@@ -17,7 +18,8 @@ export default function App(): JSX.Element {
       {/* <HookState05 /> */}
       {/* <HookState06 /> */}
       {/* <HookState07Alt /> */}
-      <HookState07 />
+      {/* <HookState07 /> */}
+      <HookState08 />
     </>
   );
 }
