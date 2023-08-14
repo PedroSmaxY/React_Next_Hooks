@@ -1,5 +1,5 @@
 export default function Button({
-  setValor,
+  setValor
 }: {
   setValor: React.Dispatch<React.SetStateAction<number>>;
 }): JSX.Element {
