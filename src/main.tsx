@@ -1,14 +1,17 @@
-import React from "react";
+// import React from "react";
 import { createRoot } from "react-dom/client";
 
 // App
-import App from './App.tsx'
+import App from "./App.tsx";
 
 const root: Element | null = document.querySelector("#root");
 if (root) {
   createRoot(root).render(
-    <React.StrictMode>
+    // <React.StrictMode>
+    //   <App />
+    // </React.StrictMode>
+    <>
       <App />
-    </React.StrictMode>
+    </>
   );
 }

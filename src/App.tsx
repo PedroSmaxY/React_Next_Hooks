@@ -13,8 +13,9 @@
 // import HookState12 from "./components/UseState_12";
 // import HookState13 from "./components/UseState_13";
 // import HookState14 from "./components/UseState_14";
-import HookState15 from "./components/UseState_15";
-import HookRef16 from "./components/UseRef_16";
+// import HookState15 from "./components/UseState_15";
+// import HookRef16 from "./components/UseRef_16";
+import HookEffect17 from "./components/UseEffect_17";
 
 export default function App(): JSX.Element {
   return (
@@ -32,8 +33,9 @@ export default function App(): JSX.Element {
       {/* <HookState10 /> */}
       {/* <HookState11 /> */}
       {/* <HookState12 /> */}
-      <HookState15 />
-      <HookRef16 />
+      {/* <HookState15 /> */}
+      {/* <HookRef16 /> */}
+      <HookEffect17 />
     </>
   );
 }

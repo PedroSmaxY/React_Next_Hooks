@@ -1,7 +1,7 @@
 import { useRef } from "react";
 
 export default function HookRef16(): JSX.Element {
-  const valor = useRef<number>(1);
+  const valor = useRef<number>(10);
 
   const incremento = () => {
     valor.current = valor.current + 1;
