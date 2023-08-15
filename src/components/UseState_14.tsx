@@ -36,13 +36,15 @@ export default function HookState14(): JSX.Element {
         </button>
         <div>
           <h2>Nomes: </h2>
-          {nomes.map((array: string, index: number) => {
-            return (
-              <>
-                <p key={index}>{array}</p>
-              </>
-            );
-          })}
+          <ul>
+            {nomes.map((array: string, index: number) => {
+              return (
+                <>
+                  <li key={index}>{array}</li>
+                </>
+              );
+            })}
+          </ul>
         </div>
       </div>
     </>
