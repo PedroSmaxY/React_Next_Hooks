@@ -35,6 +35,7 @@ export default function HookState07Alt(): JSX.Element {
   return (
     <>
       <h2>Exercício 05</h2>
+      <hr />
       <div>
         {valor.map((objeto, index) => {
           return (
@@ -44,6 +45,7 @@ export default function HookState07Alt(): JSX.Element {
                 aumentarValor={() => aumentarValor(index)}
                 diminuirValor={() => diminuirValor(index)}
               />
+              <hr />
             </div>
           );
         })}
