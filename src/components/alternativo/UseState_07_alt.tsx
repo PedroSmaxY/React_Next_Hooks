@@ -5,15 +5,14 @@ import ValorArray from "./UseState_07a_alt";
 
 // Interface
 interface ObjetoValor {
-  id: number;
   valor: number;
 }
 
 export default function HookState07Alt(): JSX.Element {
   const [valor, setValor] = useState<ObjetoValor[]>(() => [
-    { id: 1, valor: 100 },
-    { id: 2, valor: 500 },
-    { id: 3, valor: 1000 },
+    { valor: 100 },
+    { valor: 500 },
+    { valor: 1000 },
   ]);
 
   const aumentarValor = (index: number) => {
@@ -39,7 +38,7 @@ export default function HookState07Alt(): JSX.Element {
       <div>
         {valor.map((objeto, index) => {
           return (
-            <div key={objeto.id}>
+            <div key={index}>
               Valor: {objeto.valor}
               <ValorArray
                 aumentarValor={() => aumentarValor(index)}
